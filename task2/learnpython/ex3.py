@@ -19,7 +19,7 @@ print 3 + 2 > 5 -7
 
 print "Oh, that's why it's False."
 
-#Boolean
+#Boolean values 
 print "Is it greater?", 5 > -2 
 print "Is it greater or equal?", 5 >= -2
-print "Is it less or equal?", 5 <= -2
+print "Is it less or equal?", 5 <= -2 
