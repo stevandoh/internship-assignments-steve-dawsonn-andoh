@@ -1,5 +1,5 @@
 print "Mary had a little lamb."
-print "Its fleece was white a %s", 'snow'
+print "Its fleece was white a %s" %'snow'
 print "And everywhre that Mary went."
 print "." * 10
 
