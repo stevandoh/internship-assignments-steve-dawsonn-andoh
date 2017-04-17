@@ -6,8 +6,8 @@ Add the following to dockerfile
 * **FROM python:2** 
 * **ADD my_script.py /**
 * **CMD ["python", "./my_script.py"]**
-* run **docker build -t hello-docker .**
-hello-docker is the name of the container
+* run **docker build -t docker-task .**
+**docker-task** is the name of the container
 Check if the container has been created
 * run **docker images**
-* then run ** docker run hello-docker **
+* then run ** docker run docker-task**
