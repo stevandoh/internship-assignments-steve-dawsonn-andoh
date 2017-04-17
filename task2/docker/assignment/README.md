@@ -1,7 +1,7 @@
 # How to run a docker image
 ## Create a dockerfile
 
-* **touch dockerfile**
+* Do **touch dockerfile**
 * Create your python script **script.py**
 * Add the following to dockerfile
 * **FROM python:3** 
