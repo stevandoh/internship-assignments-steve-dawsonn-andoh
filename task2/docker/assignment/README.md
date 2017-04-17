@@ -3,7 +3,6 @@
 
 * Do **touch dockerfile**
 * **touch dockerfile**
->>>>>>> b3001a95e43aefa3c86758404762651d5a742b17
 * Create your python script **script.py**
 * Add the following to dockerfile
 * **FROM python:3** 
