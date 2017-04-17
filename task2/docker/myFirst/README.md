@@ -8,7 +8,7 @@ Add the following to dockerfile
 * **ADD my_script.py /**
 * **CMD ["python", "./my_script.py"]**
 * run **docker build -t hello-docker .**
-hello-docker is the name of the container
+hello-d ocker is the name of the container
 Check if the container has been created
 * run **docker images**
 * then run ** docker run hello-docker **
