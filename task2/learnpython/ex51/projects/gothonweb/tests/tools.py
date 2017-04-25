@@ -2,7 +2,7 @@ from nose.tools import *
 import re
 
 def assert_response(resp, contains=None, matches=None, headers=None, status=200):
-    
+
     assert status in resp.status, "Expected response %r not in %r" %(status, resp.status)
 
     if status == "200":
@@ -11,7 +11,7 @@ def assert_response(resp, contains=None, matches=None, headers=None, status=200)
     if contains:
         assert contains in resp.data, "Response does not contain %r" %  contains
 
-    if matches:
+
         reg = re.compile(matches)
         assert re.matches(resp.data), "Response does not match %r" % matches
 
